@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Login{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+.first{
+    width: 25%;
+    height: 500px;
+    /* background-color: yellow; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-status{
+    width: 100%;
+    height: 70px;
+    background-color: #009cde;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-status-message{
+    width: 95%;
+    height: auto;
+    /* background-color: aquamarine; */
+    padding: 5px;
+    font-size: 12px;
+    font-family: "Open Sans",helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+}
+.login-status-icon{
+    width: 30px;
+    height: 25px;
+    border-radius: 100%;
+    background-image: url("../img/loginstatusicon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Open Sans",helvetica,arial,sans-serif;
+    margin-left: 15px;
+}
+
+.firstBottom{
+    width: 80%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.webmail-logo{
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/webmaillogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 25px;
+    margin-bottom: -15px;
+}
+.login-form{
+    width: 100%;
+    height: 39%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-form-input-container{
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-form-input{
+    width: 99%;
+    height: 50%;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-form-input-userlogo{
+    width: 8%;
+    height: 20px;
+    background-image: url("../img/iconusername.png");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.login-form-input > input{
+    width: 80%;
+    height: 100%;
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.login-form-input-passwordlogo{
+    width: 8%;
+    height: 20px;
+    background-image: url("../img/iconpassword.png");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.login-button{
+    width: 100%;
+    height: 45px;
+    background-color: #009cde;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: #0371a0;
+}
+
+.login-reset-password{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.login-reset-password:hover{
+    color: rgb(219, 3, 3);
+}
+
+
+.second{
+    width: 60%;
+    height: 20px;
+    background-color: yellow;
+    margin-top: 50px;
+    display: flex;
+}
+
+.second2{
+    width: 12%;
+    height: 50px;
+    /* background-color: yellow; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.locale-button{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(186, 186, 186);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.third{
+    width: 10%;
+    height: auto;
+    /* background-color: yellow; */
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-footer-logo{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/webmailicon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.privacy-policy{
+    font-size: 10px;
+    cursor: pointer;
+}
+.privacy-policy:hover{
+    color: rgb(217, 142, 3);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1288px) {
+    
+    .first{
+        width: 35%;
+    }
+
+    .third{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .first{
+        width: 50%;
+    }
+
+    .third{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 481px) {
+    
+    .first{
+        width: 91%;
+        margin-top: 20px;
+    }
+    .firstBottom{
+        width: 100%;
+        height: 90%;
+        /* background-color: red; */
+    }
+    .webmail-logo{
+        width: 70%;
+        height: 100px;
+    }
+    .login-form-input-container{
+        width: 100%;
+        height: 80px;
+    }
+    .login-button{
+        margin-top: 20px;
+    }
+    .login-reset-password{
+        margin-top: 15px;
+    }
+
+    .second{
+        display: none;
+    }
+    .second2{
+        width: 50%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .third{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+    .second2{
+        width: 0%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+    }
+
+}
