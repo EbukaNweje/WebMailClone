@@ -279,7 +279,7 @@
 @media screen and (max-width: 321px) {
 
     .second2{
-        width: 0%;
+        width: 60%;
         height: 50px;
         /* background-color: yellow; */
         margin-top: -50px;
@@ -287,4 +287,57 @@
         align-items: center;
     }
 
+}
+
+@media screen and (max-width: 288px) {
+
+    .second2{
+        width: 70%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .third{
+        width: 60%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 247px) {
+
+    .second2{
+        width: 80%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .login-status{
+        width: 100%;
+        height: 90px;
+    }
+
+}
+
+@media screen and (max-width: 224px) {
+
+    .second2{
+        width: 90%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .third{
+        width: 90%;
+        height: auto;
+    }
 }

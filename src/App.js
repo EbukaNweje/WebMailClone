@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
     
-      <div style={{width: "100vw", height: "auto", backgroundColor: "#fff"}}>
+      <div style={{width: "100%", height: "auto", backgroundColor: "#fff"}}>
         <Login/>
       </div>
     
