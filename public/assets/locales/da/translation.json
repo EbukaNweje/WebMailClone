@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Den ønskede landestandard er blevet gemt på din browser. Hvis du igen vil ændre landestandarden i denne browser, skal du vælge en anden landestandard på dette skærmbillede.",
+    "email_address": "Mailadresse",
+    "enter_email_address": "Angiv din mailadresse",
+    "password": "Adgangskode",
+    "enter_password": "Angiv adgangskoden til din mailadre",
+    "login": "Log på",
+    "reset_password": "Nulstil adgangskode ",
+    "select_locale": "Vælg en landestandard:",
+    "close_locale": "X Luk",
+    "title": "Webmaillogon"
+}   

@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Das gewünschte Gebietsschema wurde in Ihrem Browser gespeichert. Um diese Einstellung zu ändern, wählen Sie ein anderes Gebietsschema auf dieser Seite aus.",
+    "email_address": "E-Mail-Adresse",
+    "enter_email_address": "Geben Sie Ihre E-Mail-Adresse ein.",
+    "password": "Passwort",
+    "enter_password": "Geben das Passwort für Ihr E-Mail-Konto ein.",
+    "login": "Anmelden",
+    "reset_password": "Passwort zurücksetzen",
+    "select_locale": "Wählen Sie ein Gebietsschema aus:",
+    "close_locale": "X Schließen",
+    "title": "Webmaillogon"
+}

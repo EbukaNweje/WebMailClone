@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Halutut maakohtaiset asetukset on tallennettu selaimeen. Voit muuttaa niitä selaimessa valitsemalla toiset maakohtaiset asetukset tässä näytössä.",
+    "email_address": "Sähköpostiosoite",
+    "enter_email_address": "Enter your email address",
+    "password": "Email Address",
+    "enter_password": "Enter your email password",
+    "login": "Login",
+    "reset_password": "Reset Password",
+    "select_locale": "Please select a locale:",
+    "close_locale": "X Close",
+    "title": "Webmaillogon"
+}

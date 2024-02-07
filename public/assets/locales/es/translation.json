@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Se guardó la configuración regional deseada en el navegador. Para cambiar de nuevo la configuración regional en este navegador, seleccione otra configuración regional en esta pantalla.",
+    "email_address": "Dirección de correo electrónico",
+    "enter_email_address": "Enter your email address",
+    "password": "Escriba su dirección de correo electrónico.",
+    "enter_password": "Contraseña",
+    "login": "Inicio de sesión",
+    "reset_password": "Restablecer contraseña",
+    "select_locale": "Seleccione una configuración regional:",
+    "close_locale": "X Cerrar",
+    "title": "Webmaillogon"
+}

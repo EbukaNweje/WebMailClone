@@ -1,0 +1,12 @@
+{
+    "login-status-message": "V prohlížeči bylo uloženo požadované národní prostředí. Chcete-li v tomto prohlížeči znovu změnit národní prostředí, vyberte jiné nastavení na této obrazovce.",
+    "email_address": "E-mailová adresa",
+    "enter_email_address": "Zadejte svoji e-mailovou adresu.",
+    "password": "Heslo",
+    "enter_password": "Zadejte svoje e-mailové heslo.",
+    "login": "Přihlásit",
+    "reset_password": "Resetovat heslo",
+    "select_locale": "Vyberte národní prostředí:",
+    "close_locale": "X Zavřít",
+    "title": "يرجى :X "
+}
