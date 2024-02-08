@@ -1,0 +1,12 @@
+{
+    "login-status-message": "A kívánt területi beállítást a rendszer mentette az Ön böngészőjébe. A területi beállításnak ebben a böngészőben történő módosításához válasszon másik területi beállítást ezen a képernyőn.",
+    "email_address": "E-mail cím",
+    "enter_email_address": "Adja meg az e-mail címét.",
+    "password": "Jelszó",
+    "enter_password": "Adja meg az e-mail jelszavát.",
+    "login": "Bejelentkezés",
+    "reset_password": "Jelszó visszaállítása",
+    "select_locale": "Válasszon területi beállítást:",
+    "close_locale": "X Bezárás",
+    "title": "Webes e-mail Bejelentkezés"
+}

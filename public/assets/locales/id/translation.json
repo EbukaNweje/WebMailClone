@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Lokal yang diinginkan telah disimpan ke browser. Untuk mengubah kembali lokal di browser ini, pilih lokal lain pada layar ini.",
+    "email_address": "Alamat Email",
+    "enter_email_address": "Masukkan alamat email.",
+    "password": "Kata sandi",
+    "enter_password": "Masukkan kata sandi email.",
+    "login": "Masuk",
+    "reset_password": "Atur Ulang Kata Sandi",
+    "select_locale": "Pilih lokal:",
+    "close_locale": "X Tutup",
+    "title": "Login Webmail"
+}

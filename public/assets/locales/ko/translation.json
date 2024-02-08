@@ -1,0 +1,12 @@
+{
+    "login-status-message": "원하는 로켈이 브라우저에 저장되었습니다. 이 브라우저의 로켈을 다시 변경하려면 이 화면에서 다른 로켈을 선택하십시오.",
+    "email_address": "이메일 주소",
+    "enter_email_address": "이메일 주소를 입력하십시오.",
+    "password": "암호",
+    "enter_password": "이메일 암호를 입력하십시오.",
+    "login": "로그인",
+    "reset_password": "암호 재설정",
+    "select_locale": "로켈을 선택하십시오.",
+    "close_locale": "X 닫기",
+    "title": "Webmail Login"
+}

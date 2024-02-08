@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Na-save ang gustong localesa iyong browser. Upang baguhin ang locale sa browser na ito, pumili ng iba pang locale sa screen na ito.",
+    "email_address": "Email Address",
+    "enter_email_address": "Ilagay ang iyong email address.",
+    "password": "Password",
+    "enter_password": "Ilagay ang iyong password sa email.",
+    "login": "Mag-log in",
+    "reset_password": "inI-reset ang Password",
+    "select_locale": "Mangyaring pumili ng isang locale:",
+    "close_locale": "X Isara",
+    "title": "Pag-login sa Webmail"
+}

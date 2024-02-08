@@ -52,91 +52,92 @@ const languages = [
     name: "suomi",
   },
   {
-    code: "fi",
+    code: "fil",
     name: "Filipino",
   },
   {
-    code: "fi",
+    code: "he",
     name: "עברית",
+    dir: "rtl"
   },
   {
-    code: "fi",
+    code: "hu",
     name: "magyar",
   },
   {
-    code: "fi",
+    code: "id",
     name: "Bahasa Indonesia",
   },
   {
-    code: "fi",
+    code: "it",
     name: "italiano",
   },
   {
-    code: "fi",
+    code: "ja",
     name: "日本語",
   },
   {
-    code: "fi",
+    code: "ko",
     name: "한국어",
   },
   {
-    code: "fi",
+    code: "ms",
     name: "Bahasa Melayu",
   },
   {
-    code: "fi",
+    code: "nb",
     name: "norsk bokmål",
   },
   {
-    code: "fi",
+    code: "nl",
     name: "Nederlands",
   },
   {
-    code: "fi",
+    code: "pl",
     name: "polski",
   },
   {
-    code: "fi",
+    code: "pt",
     name: "português",
   },
   {
-    code: "fi",
+    code: "br",
     name: "português do Brasil",
   },
   {
-    code: "fi",
+    code: "ro",
     name: "română",
   },
   {
-    code: "fi",
+    code: "ru",
     name: "русский",
   },
   {
-    code: "fi",
+    code: "sv",
     name: "svenska",
   },
   {
-    code: "fi",
+    code: "th",
     name: "ไทย",
   },
   {
-    code: "fi",
+    code: "tr",
     name: "Türkçe",
   },
   {
-    code: "fi",
+    code: "uk",
     name: "українська",
   },
   {
-    code: "fi",
+    code: "vi",
     name: "Tiếng Việt",
   },
   {
-    code: "fi",
+    code: "zh",
     name: "中文",
   },
   {
-    code: "fi",
+    code: "zh_tw",
     name: "中文（台湾）",
   },
 ]

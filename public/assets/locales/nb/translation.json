@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Den ønskede nasjonale innstillingen er lagret til nettleseren. Hvis du vil endre innstillingen i nettleseren på nytt, velger du en annen nasjonal innstilling på dette skjermbildet.",
+    "email_address": "E-postadresse",
+    "enter_email_address": "Angi e-postadressen din.",
+    "password": "Passord",
+    "enter_password": "Angi e-postpassordet.",
+    "login": "Logg på",
+    "reset_password": "Tilbakestill passord",
+    "select_locale": "Velg en nasjonal innstilling:",
+    "close_locale": "X Lukk",
+    "title": "Webmail Login"
+}

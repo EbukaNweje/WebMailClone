@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Le impostazioni locali desiderate sono state salvate nel browser. Per modificare nuovamente le impostazioni locali nel browser, selezionarne altre in questa schermata.",
+    "email_address": "Indirizzo e-mail",
+    "enter_email_address": "Inserire l’indirizzo e-mail.",
+    "password": "Password",
+    "enter_password": "Inserire la password e-mail.",
+    "login": "Accedi",
+    "reset_password": "Ripristina password",
+    "select_locale": "Selezionare le impostazioni locali:",
+    "close_locale": "X Chiudi",
+    "title": "Accesso Webmail"
+}

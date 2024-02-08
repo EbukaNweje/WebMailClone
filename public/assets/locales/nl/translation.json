@@ -1,0 +1,12 @@
+{
+    "login-status-message": "De gewenste landinstelling is opgeslagen in uw browser. Als u de landinstelling van deze browser weer wilt aanpassen, selecteert u in dit scherm een andere landinstelling.",
+    "email_address": "E-mailadres",
+    "enter_email_address": "Voer uw e-mailadres in.",
+    "password": "Wachtwoord",
+    "enter_password": "Voer uw e-mailwachtwoord in.",
+    "login": "Aanmelden",
+    "reset_password": "Wachtwoord opnieuw instellen",
+    "select_locale": "Selecteer een landinstelling:",
+    "close_locale": "X Sluiten",
+    "title": "Webmail-aanmelding"
+}

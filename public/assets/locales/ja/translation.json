@@ -1,0 +1,12 @@
+{
+    "login-status-message": "ご希望のロケールがブラウザに保存されました。このブラウザでロケールを再度変更するには、この画面で別のロケールを選択してください。",
+    "email_address": "メールアドレス",
+    "enter_email_address": "メールアドレスを入力してください。",
+    "password": "パスワード",
+    "enter_password": "メールのパスワードを入力してください。",
+    "login": "ログイン",
+    "reset_password": "パスワードをリセット",
+    "select_locale": "ロケールを選択してください:",
+    "close_locale": "X 閉じる",
+    "title": "Webmail Login"
+}

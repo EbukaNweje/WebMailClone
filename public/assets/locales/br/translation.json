@@ -1,0 +1,12 @@
+{
+    "login-status-message": "A localidade desejada foi salva em seu navegador. Para mudar a localidade nesse navegador novamente, selecione outra localidade nessa tela.",
+    "email_address": "Endereço de e-mail",
+    "enter_email_address": "Insira seu endereço de e-mail.",
+    "password": "Senha",
+    "enter_password": "Insira a senha do seu e-mail.",
+    "login": "Login",
+    "reset_password": "Redefinir Senha",
+    "select_locale": "Selecione uma localidade:",
+    "close_locale": "X Fechar",
+    "title": "Login no Webmail"
+}

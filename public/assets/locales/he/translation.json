@@ -1,0 +1,12 @@
+{
+    "login-status-message": "האזור הרצוי נשמר בדפדפן שלך. כדי לשנות שוב את האזור בדפדפן זה, בחר אזור אחר במסך זה.",
+    "email_address": "כתובת דואר אלקטרוני",
+    "enter_email_address": "הזן את כתובת הדואר האלקטרוני שלך.",
+    "password": "סיסמה",
+    "enter_password": "הזן את סיסמת הדואר האלקטרוני שלך.",
+    "login": "כניסה",
+    "reset_password": "איפוס סיסמה",
+    "select_locale": "בחר את האזור:",
+    "close_locale": "X סגור",
+    "title": "Webmail Login"
+}

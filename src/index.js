@@ -20,7 +20,7 @@ i18n
     // the translations
     // (tip move them in a JSON file and import them,
     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
-   supportedLngs: ['en', 'fr', 'da', 'ar', 'de', 'el', 'es', 'es_419', 'es_es', 'cs', 'fi'],
+   supportedLngs: ['en', 'fr', 'da', 'ar', 'de', 'el', 'es', 'es_419', 'es_es', 'cs', 'fi', 'fil', 'br', 'he', 'hu', 'id', 'it', 'ja', 'ko', 'ms', 'nb', 'nl', 'pl', 'pt', 'ro', 'ru', 'sv', 'th', 'tr', 'uk', 'vi', 'zh', 'zh_tw'],
     fallbackLng: "en",
     detection: {
       order: [ 'cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],

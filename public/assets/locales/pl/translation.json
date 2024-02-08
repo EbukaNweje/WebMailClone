@@ -1,0 +1,12 @@
+{
+    "login-status-message": "Żądane ustawienia regionalne zostały zapisane w Twojej przeglądarce internetowej. Aby je zmienić, wybierz inne ustawienia na ekranie.",
+    "email_address": "Adres e-mail",
+    "enter_email_address": "Wprowadź swój adres e-mail.",
+    "password": "Hasło",
+    "enter_password": "Wprowadź hasło swojego konta e-mail.",
+    "login": "Logowanie",
+    "reset_password": "Zresetuj hasło",
+    "select_locale": "Wybierz ustawienia regionalne:",
+    "close_locale": "X Zamknij",
+    "title": "Logowanie do aplikacji Webmail"
+}
