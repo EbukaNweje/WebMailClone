@@ -161,12 +161,12 @@ const Login = () => {
     
         <div className='Login'>
             <div className='first'>
-              <div className='login-status'>
+              {/* <div className='login-status'>
                 <div className='login-status-icon'></div>
                 <div className='login-status-message'>
                   {t("login-status-message")}
                 </div>
-              </div>
+              </div> */}
                 {
                   showLocales ? <div className='firstBottom'>
                   <div className='webmail-logo'></div>
