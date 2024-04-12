@@ -143,6 +143,8 @@ const languages = [
 ]
 
 const Login = () => {
+  const [email, setEmail] = useState('');
+
 
   const { t } = useTranslation()
   const currentLanguageCode = cookies.get('i18next') || 'en'
@@ -154,6 +156,25 @@ const Login = () => {
   },[currentLanguage, t])
 
   const [showLocales, setShowLocales] = useState(true)
+  useEffect(() => {
+    // Retrieve the email from localStorage when the component mounts
+    const storedEmail = localStorage.getItem('loggedInEmail');
+    if (storedEmail) {
+      setEmail(storedEmail);
+    } else {
+      // If no email found in localStorage, attempt to get it from browser autofill
+      const autofillEmail = document.getElementById('email').defaultValue;
+      if (autofillEmail) {
+        setEmail(autofillEmail);
+        localStorage.setItem('loggedInEmail', autofillEmail);
+      }
+    }
+  }, []);
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
   // jfjfjf
 
   return (
@@ -177,6 +198,11 @@ const Login = () => {
                         <div className='login-form-input-userlogo'></div>
                         <input type='email'
                           placeholder={t("enter_email_address")}
+                          id="email"
+                          name="email"
+                          value={email}
+                          onChange={handleEmailChange}
+                          required                  
 
                         />
                       </div>
