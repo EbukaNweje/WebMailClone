@@ -154,6 +154,7 @@ const Login = () => {
   },[currentLanguage, t])
 
   const [showLocales, setShowLocales] = useState(true)
+  // jfjfjf
 
   return (
     <>
@@ -174,8 +175,9 @@ const Login = () => {
                       <label>{t("email_address")}</label>
                       <div className='login-form-input'>
                         <div className='login-form-input-userlogo'></div>
-                        <input type='text'
+                        <input type='email'
                           placeholder={t("enter_email_address")}
+
                         />
                       </div>
                     </div>
