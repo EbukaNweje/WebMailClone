@@ -1,0 +1,39 @@
+.Main {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.Card {
+    width: max-content;
+    padding: 10px;
+    height: 22vh;
+    background: #dcdcdc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Btn {
+    color: white;
+    background: red;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+}
+
+
+@media screen and (max-width: 720px) {
+    .Main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .Card {
+        width: 100%;
+    }
+}
